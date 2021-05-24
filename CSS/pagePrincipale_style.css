@@ -5,14 +5,22 @@
     font-family :Arial, Helvetica, sans-serif;
     font-weight : normal ;
     text-shadow: 0px 0px 10px #fff;
-    color: turquoise;
+   
     
     
 }
 
+
+
 body, html {
     background-color :rgb(176, 189, 202);
-    height: 1000px;
+    height: 1100px;
+    overflow-x: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: -3;
+    
+    
 }
 
 .jumbotron {
@@ -113,7 +121,295 @@ body, html {
     .intro img {
         width: 500px;
         padding-top: 20px;
+        z-index: 40;
+        position: relative;
+    }
+
+    
+    section#contact .container3 form{
+        flex-direction : column;
+        width: 95%;
+        margin-top: 50%;
+        text-align: center;
+    }
+
+    section#contact .container3 form input {
+        width: 100%;
     }
 
 
+    .footer-col .container4 {
+        padding-top: 0;
+=
+    }
+   
+        
+
+    .footer-col {
+        width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+        flex-direction: column;
+        margin-top: 500px;
+        
+
+    }
+
+    #videoBG {
+        height: auto;
+    }
+
+  
+    
+    
+   
+
+
 }
+
+
+
+
+
+
+section#contact {
+    color:rgb(54, 182, 169);
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+vertical-align: middle;  
+z-index: 30;
+}
+
+
+section#contact .container3 {
+    max-width: 1100px;
+    margin: 0 auto ;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 50px;
+    border-spacing: 50px 50px;
+    box-shadow: 0px 10px 50px -10px turquoise;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    z-index: 31;
+    position: relative;
+    
+    
+}
+
+section#contact .container .title h6 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: turquoise;
+    font-weight: bold;
+}
+
+section#contact .container form {
+    justify-content: space-between;
+    max-width: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+section#contact .container form input {
+    width: 47%;
+    
+}
+
+section#contact .container form input:hover,
+section#contact .container form textarea:hover {
+    border-bottom: 2px solid turquoise;
+
+}
+
+section#contact .container3 form input,
+section#contact .container3 form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid turquoise;
+    transition: 0.2s;
+    opacity: 0.8;
+    font-size: 9px;
+    text-align: center;
+    z-index: 29;
+
+
+}
+
+section#contact .container3 form textarea {
+
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 35px;
+    font-size: 9px;
+    
+
+  
+}
+
+section#contact .container3 form button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border:none;
+    background-color: turquoise;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+section#contact .container3 form button:hover {
+
+    transform: translateY(-5px);
+    box-shadow: rgb(214 214 214 ) 0px 10px 40px 0px;
+}
+
+
+
+* {
+    
+    box-sizing: border-box;
+}
+
+section#contact {
+    margin-top: -30%;
+    text-align: center;  
+    justify-content: center;  
+}
+.container4 {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.footer {
+    color: black;
+    padding: 70px 0;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    margin-top: 5%;
+
+}
+
+.footer-col {
+    width: 22%;
+    padding: 0 15px;
+    display: inline-block;
+  
+}
+
+.footer-col h8 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(44, 148, 138);
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+    font-weight: bold;
+}
+
+.footer-col h8::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color:rgb(38, 136, 126);
+    height: 0.5px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 13px;
+    text-transform: capitalize;
+    color: rgb(33, 129, 120);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+
+}
+
+.footer-col ul li a:hover{
+    color:rgb(78, 206, 193);
+    padding-left: 10px;
+}
+
+.footer-col li a {
+
+    line-height: 12px;
+
+}
+
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(41, 172, 159);
+    margin: 0 12px 10px 0 ;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: turquoise;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+ color:white;
+}
+
+
+#videoBG {
+    overflow-x: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100% ;
+    z-index: 1;
+    filter: blur(7px);
+}
+
+.container5 {
+}
+
+.container5 video {
+    position: relative;
+}
+
