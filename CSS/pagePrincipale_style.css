@@ -29,7 +29,7 @@ body, html {
     background-size: cover;
     background-position : center ;
     border-radius: 0px;
-    margin-top: ;
+    margin-top: 0 ;
     font-size: 12px;
     color: turquoise;
     
@@ -39,6 +39,9 @@ body, html {
 
 #header .btn {
     border : 1px solid white;
+    margin-top: 5px;
+    padding-top: 0;
+
     
 }
 
@@ -54,22 +57,33 @@ body, html {
 
 .nav-item {
     color :turquoise;
+    margin-top: 5px;
+    padding-top: 0;
 }
 
 .header {
     color: turquoise;
+   
+
 }
 
 .navbar-nav > li {
     padding-left:50px;
     padding-right:50px;
     color: turquoise;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding-top: 0;
+  
+
   }
 
 
 
   .navbar-nav a {
     color: rgb(78, 206, 193);
+    margin-top: 5px;
+    padding-top: 0;
   }
 
   .navbar-toggler {
